@@ -1,138 +1,206 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
-  <meta charset="utf-8">
-  <title>20260827-hc_Cornetto-custom</title>
-  <meta name="keywords" content="イタリアン,レストラン,東京,パスタ,ディナー">
-  <meta name="description" content="LUCEは、季節の食材とイタリアの食文化を大切にするイタリアンレストランです。">
-  <link rel="stylesheet" href="css/normalize.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cornetto-custom</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <!-- ヘッダーエリア -->
+
   <header class="header">
     <h1 class="logo">
-      <img src="img/LUCE.png" alt="LUCE" width="207" height="207">
+      <img src="img/LUCE.png" alt="LUCE">
     </h1>
   </header>
 
-  <!-- メインエリア -->
-  <main class="main">
-    <!-- メインイメージ -->
-    <figure class="top">
-      <img src="img/top.jpg" alt="Cornettoのパン">
-    </figure>
+
+  <main>
+
+    <!-- メインビジュアル -->
+    <div class="top">
+      <img src="img/photo01.jpg" alt="LUCEの店内">
+    </div>
+
 
     <!-- ナビゲーション -->
     <nav class="nav">
-      <ul class="nav-list">
-        <li><a href="#about">about</a></li>
-        <li><a href="#menu">menu</a></li>
-        <li><a href="#photos">story</a></li>
-        <li><a href="#access">access</a></li>
+      <ul>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#photos">PHOTOS</a></li>
+        <li><a href="#access">ACCESS</a></li>
       </ul>
     </nav>
 
-    <!-- aboutセクション -->
-    <section id="about" class="section about">
-    <h2 class="heading">
-    <img src="img/ttl_about.svg" alt="about">
-    </h2>
 
-    <p class="lead">
-    日常に、ひとさじのイタリア。
-    </p>
+    <!-- ABOUT -->
+    <section id="about" class="about">
 
-  <p>
-    LUCEは、季節の食材とイタリアの食文化を大切にする<br>
-    イタリアンレストランです。<br>
-    一皿の料理だけでなく、香り、会話、光。<br>
-    食卓を囲む時間そのものをお楽しみください。
-  </p>
+      <h2>
+        <img src="img/ttl_about 1.svg" alt="ABOUT">
+      </h2>
+
+      <div class="about-text">
+
+        <p class="lead">
+          日常に、ひとさじのイタリア。
+        </p>
+
+        <p>
+          LUCEは、季節の食材とイタリアの味わいを楽しむ<br>
+          小さなイタリアンレストランです。
+        </p>
+
+        <p>
+          香り豊かなパスタや料理、食後のドルチェまで。<br>
+          木の温もりを感じる空間で、ゆっくりとした時間をお過ごしください。
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- MENU -->
+    <section id="menu" class="menu">
+
+      <h2>
+        <img src="img/ttl_menu 1.svg" alt="MENU">
+      </h2>
+
+      <ul class="menu-list">
+
+        <li>
+          <div>
+            <h3>Truffle Tagliolini</h3>
+            <p>トリュフ香る手打ちタリオリーニ</p>
+          </div>
+          <span>¥1,800</span>
+        </li>
+
+        <li>
+          <div>
+            <h3>Seasonal Pasta</h3>
+            <p>季節の食材を使ったおすすめパスタ</p>
+          </div>
+          <span>¥1,600</span>
+        </li>
+
+        <li>
+          <div>
+            <h3>Today's Special</h3>
+            <p>その日の食材で仕立てる季節の一皿</p>
+          </div>
+          <span>¥2,200</span>
+        </li>
+
+        <li>
+          <div>
+            <h3>Antipasto</h3>
+            <p>季節の食材を楽しむ前菜盛り合わせ</p>
+          </div>
+          <span>¥1,400</span>
+        </li>
+
+        <li>
+          <div>
+            <h3>Homemade Tiramisù</h3>
+            <p>自家製ティラミス</p>
+          </div>
+          <span>¥700</span>
+        </li>
+
+      </ul>
+
+    </section>
+
+
+    <!-- PHOTOS -->
+<section id="photos" class="photos">
+
+  <h2>
+    <img src="img/ttl_photos 1.svg" alt="PHOTOS">
+  </h2>
+
+  <div class="photo-list">
+
+    <figure class="photo-item photo-left">
+      <img src="img/photo02.jpg" alt="LUCEの店内">
+      <figcaption>落ち着いた雰囲気の店内で、ゆっくりと食事を楽しめます。</figcaption>
+    </figure>
+
+    <figure class="photo-item photo-right">
+      <img src="img/photo03.jpg" alt="自家製ティラミス">
+      <figcaption>食後のひとときを彩る、LUCE自家製のティラミス。</figcaption>
+    </figure>
+
+    <figure class="photo-item photo-left">
+      <img src="img/photo05.jpg" alt="LUCEのパスタ">
+      <figcaption>季節の食材を生かした、香り豊かなパスタ。</figcaption>
+    </figure>
+
+  </div>
+
 </section>
 
-    <!-- menuセクション -->
-    <section id="menu" class="section menu">
-      <h2 class="heading">
-        <img src="img/ttl_menu.svg" alt="menu">
+    <!-- ACCESS -->
+    <section id="access" class="access">
+
+      <h2>
+        <img src="img/ttl_access 1.svg" alt="ACCESS">
       </h2>
-      <ul class="menu-list">
-        <li>クロワッサン・・・ 140円</li>
-        <li>ベーグル・・・ 180円</li>
-        <li>ピザパン・・・ 180円</li>
-        <li>あんぱん・・・ 150円</li>
-        <li>食パン・・・ 450円</li>
-      </ul>
+
+      <div class="access-content">
+
+        <div class="map">
+          <img src="img/photo06.jpg" alt="LUCE周辺地図">
+        </div>
+
+        <div class="access-text">
+
+          <h3>LUCE Italian Restaurant</h3>
+
+          <p>
+            〒000-0000<br>
+            東京都○○区○○ 0-0-0
+          </p>
+
+          <p>
+            ○○駅より徒歩5分
+          </p>
+
+          <p>
+            Lunch 11:30 - 15:00<br>
+            Dinner 17:30 - 22:00
+          </p>
+
+          <p>
+            Closed : Tuesday
+          </p>
+
+        </div>
+
+      </div>
+
     </section>
 
-    <!-- photosセクション -->
-    <section id="photos" class="section photos">
-      <h2 class="heading">
-        <img src="img/ttl_photos.svg" alt="photos">
-      </h2>
-      <ul class="photos-list">
-        <li>
-          <figure>
-            <img src="img/photos_01.jpg" alt="ゆとりある朝食">
-            <figcaption>休日の朝には、いつもよりじっくりと選んだパンを食卓に並べてゆとりある朝食をいただきたいものです。</figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="img/photos_02.jpg" alt="季節のピザパン">
-            <figcaption>当店人気の”季節のピザパン”。夏の人気メニューはズッキーニとパプリカです。</figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="img/photos_03.jpg" alt="ハードパンやベーグル">
-            <figcaption>調理パンだけでなく、ハードパンやベーグルも当店の看板商品です。</figcaption>
-          </figure>
-        </li>
-      </ul>
-    </section>
-
-    <!-- accessセクション -->
-    <section id="access" class="section access">
-      <h2 class="heading">
-        <img src="img/ttl_access.svg" alt="access">
-      </h2>
-      <div class="access-row">
-        <address class="access-address">
-          <strong>Bakery shop Cornetto</strong><br>
-          〒123-4567<br>
-          東京都中区舟入中町4-40<br>
-          <strong>TEL・FAX 012-345-6789</strong>
-        </address>
-
-        <figure class="access-map">
-          <img src="img/map.png" alt="店舗周辺地図">
-        </figure>
-      </div> <!-- /.access-row -->
-    </section>
   </main>
 
-<!-- フッターエリア -->
+
+  <!-- footer -->
   <footer class="footer">
-    <div class="footer-container">
-      <p class="footer-logo">
-       <img src="img/logo_w.svg" alt="Cornetto"></p>
-      <div class="footer-body">
-        <nav class="footer-nav">
-          <ul class="footer-nav-list">
-            <li><a href="#about">about</a></li>
-            <li><a href="#menu">menu</a></li>
-            <li><a href="#photos">story</a></li>
-            <li><a href="#access">access</a></li>
-          </ul>
-        </nav>
-        <p class="copyright">
-          <small>&copy; Copyright 2026 HTML/CSS</small></p>
-      </div> <!-- /.footer-body -->
-    </div> <!-- /.footer-container -->
+
+    <div class="footer-logo">
+      <img src="img/LUCE.png" alt="LUCE">
+    </div>
+
+    <p>© LUCE Italian Restaurant</p>
+
   </footer>
+
 </body>
 
 </html>
